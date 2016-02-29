@@ -1,0 +1,5 @@
+projectId=***
+registration=mail
+error=digest
+badgeAchievement=websocket
+quickAlert=pushnotification
