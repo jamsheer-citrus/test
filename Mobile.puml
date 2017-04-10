@@ -1,0 +1,21 @@
+@startuml
+title   GraphQL Authentication And Authorization
+participant "Mobile" as Mobile
+box "GQDSS" 
+participant "Authentication Module" as Auth
+participant "Resolver" as Resolver
+end box
+participant "ICAMPP" as ICAMPP
+participant "Database" as DB
+Mobile->ICAMPP:Token request 
+ICAMPP->ICAMPP:Generate Token
+ICAMPP->Mobile:Token (oAuth)
+Mobile->Auth :Token (oAuth)
+Auth ->ICAMPP:Validate Token
+ICAMPP->ICAMPP:Do validation
+ICAMPP->Auth:Validation response
+Auth ->Resolver:User privileges
+Resolver->Resolver:Do Authorization
+Resolver->DB:Access DB
+DB->Mobile:Response
+@enduml

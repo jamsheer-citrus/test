@@ -16,6 +16,14 @@ New File
 !includefile(file://Mobile.txt)
 
 
+!includeurl(file://Mobile.puml)
+
+!includeurl(./Mobile.puml)
+
+!includefile(file://Mobile.puml)
+
+
+
 
 
 
