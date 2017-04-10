@@ -9,7 +9,7 @@ GQDSS
 
 New 
 
-![alternative text](Mobile.txt)
+!includeurl(Mobile.txt)
 
 
 
