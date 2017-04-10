@@ -23,6 +23,10 @@ New File
 !includefile(file://Mobile.puml)
 
 
+!includefile(Mobile.puml)
+
+
+!includefile(/Mobile.puml)
 
 
 
