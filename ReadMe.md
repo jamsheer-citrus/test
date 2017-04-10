@@ -9,7 +9,7 @@ GQDSS
 
 New File
 
-!includeurl(Mobile.txt)
+!includeurl(file://Mobile.txt)
 
 
 
