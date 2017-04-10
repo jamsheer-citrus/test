@@ -26,7 +26,11 @@ New File
 !includefile(Mobile.puml)
 
 
-!includefile(/Mobile.puml)
+!includefile(./Mobile.puml)
+
+
+![PlantUML model](./Mobile.puml)
+![PlantUML model](Mobile.puml)
 
 
 
