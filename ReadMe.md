@@ -11,5 +11,13 @@ New File
 
 !includeurl(file://Mobile.txt)
 
+!includeurl(./Mobile.txt)
+
+!includefile(file://Mobile.txt)
+
+
+
+
+
 
 
