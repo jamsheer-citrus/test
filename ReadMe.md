@@ -30,5 +30,7 @@ New File
 
 !includeurl https://github.com/jamsheer-thottathil/test/blob/master/Mobile.puml
 
+![PlantUML model](https://github.com/jamsheer-thottathil/test/blob/master/Mobile.puml)
+
 
 
