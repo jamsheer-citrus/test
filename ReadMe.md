@@ -28,6 +28,7 @@ New File
 )
 
 
+!includeurl https://github.com/jamsheer-thottathil/test/blob/master/Mobile.puml
 
 
 
