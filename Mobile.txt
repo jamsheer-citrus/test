@@ -1,5 +1,5 @@
 @startuml
-title   GraphQL Authentication And Authorization
+title   GraphQL Authentication And Authorization-
 participant "Mobile" as Mobile
 box "GQDSS" 
 participant "Authentication Module" as Auth
