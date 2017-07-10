@@ -1,0 +1,33 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Token",
+        "description": "Operations Related to Armada Health DSS Token Service",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/armadahealthdss/token/{token}": {
+            "get": {
+                "summary": "Create token using Json Object",
+                "description": "Create token using Json Object",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "204": {
+                        "description": "Failure"
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "token",
+                    "in": "path",
+                    "description": "To get token back",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        }
+    }
+}

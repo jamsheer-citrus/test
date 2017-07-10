@@ -1,0 +1,27 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "sample",
+        "description": "sample"
+    },
+    "paths": {
+        "/example": {
+            "get": {
+                "summary": "sample"
+            },
+            "parameters": [
+                {
+                    "name": "activityService",
+                    "in": "query"
+                }
+            ]
+        }
+    },
+    "definitions": {
+        "def": {
+            "properties": {
+                "prp": {}
+            }
+        }
+    }
+}
