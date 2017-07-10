@@ -3,5 +3,18 @@
     "info": {
         "title": "Token",
         "description": "Operations Related to Armada Health DSS Token Service"
+    },
+    "paths": {
+        "/api/armadahealthdss/token/{token}": {
+            "get": {},
+            "parameters": [
+                {
+                    "name": "token",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        }
     }
 }
