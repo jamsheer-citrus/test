@@ -1,0 +1,7 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Token",
+        "description": "Operations Related to Armada Health DSS Token Service"
+    }
+}
